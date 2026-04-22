@@ -144,7 +144,7 @@ V = np.random.rand(3, 4)
 block-beta
     columns 4
     block:Q["Q (3 × 4)"]:4
-        Q1["token 1"] Q2["token 2"] Q3["token 3"] QD["d_k = 4"]
+        Q1["token 1"] Q2["token 2"] Q3["token 3"] QD["d_q = 4"]
     end
     block:K["K (3 × 4)"]:4
         K1["token 1"] K2["token 2"] K3["token 3"] KD["d_k = 4"]

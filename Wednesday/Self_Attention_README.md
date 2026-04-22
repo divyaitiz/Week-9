@@ -94,7 +94,7 @@ def scaled_dot_product_attention(Q, K, V):
 
 ```mermaid
 flowchart TD
-    QQ["Q\n(seq_len × d_k)"]
+    QQ["Q\n(seq_len × d_q)"]
     KK["K\n(seq_len × d_k)"]
     VV["V\n(seq_len × d_v)"]
 
